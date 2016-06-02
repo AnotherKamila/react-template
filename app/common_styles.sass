@@ -1,0 +1,26 @@
+@import '../style.sass'
+
+.content-wrapper
+    padding: 1em 2em
+
+    button
+        display: inline-block
+        margin: 0.6em
+        padding: 0.8em
+        color: $green
+        font-weight: bold
+        border: 1px solid $color-inv-base
+        background-color: $color-inv-base-bg-hl
+        background: linear-gradient(to top, $color-inv-base-bg-hl 0%, $green 100%);
+        border-radius: 0.2em
+        color: white
+
+        .icon
+            margin: -0.4em 0.4em -0.4em 0
+            filter: drop-shadow(0 -2px 0 #000)
+            display: inline-block
+            font-size: 1.6em
+
+        &:hover
+            cursor: pointer
+            background: $green
